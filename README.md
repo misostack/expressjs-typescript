@@ -18,3 +18,13 @@ yarn start
 yarn build
 pm2 start ecosystem.config.js
 ```
+
+2. Heroku
+
+
+```bash
+sudo snap install --classic heroku
+heroku login
+# add heroku git for current app
+heroku git:remote -a misostack
+```
