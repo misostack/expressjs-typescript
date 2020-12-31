@@ -23,8 +23,13 @@ pm2 start ecosystem.config.js
 
 
 ```bash
+## setup
 sudo snap install --classic heroku
 heroku login
 # add heroku git for current app
 heroku git:remote -a misostack
+git push heroku master
+
+## deploy
+git push heroku master
 ```
